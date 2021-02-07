@@ -47,7 +47,7 @@ const renderMealsName = foods =>{
     mealsDetails.innerHTML = `
     <img src = "${foods.strMealThumb}">
     <h1 class="foods-name">${foods.strMeal}</h1>
-    <h3>Ingredient</h3>
+    <h3>Ingredients</h3>
     <li class="list">${foods.strIngredient1}</li>
     <li class="list">${foods.strIngredient2}</li>
     <li class="list">${foods.strIngredient3}</li>
